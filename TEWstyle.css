@@ -1,0 +1,46 @@
+
+
+.mining, .rail, .wagon {
+ text-align: center;
+}
+h3{
+ margin-top: 6px;
+ margin-bottom: 6px;
+}
+#mL {
+color: #e8952b;
+ position: relative;
+ left: 52px;
+}
+
+#rL {
+ color: #5a3a8d;
+ position: relative;
+ left: 190px;
+}
+#wL {
+ color:#457565;
+ position: relative;
+ left: 311px;
+}
+.mining{
+color:#4c2c03;
+background-color: #e8952b;
+}
+.rail{
+color:#c0aedc;
+background-color: #5a3a8d;
+}
+.wagon{
+color:#7bd6b7;
+background-color: #457565;
+}
+/*mobile adaption protocol*/
+
+@media(max-width:430px){
+#mL, #rL, #wL{
+position:relative;
+left:30px;
+}
+
+}
